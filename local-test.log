@@ -1,0 +1,10 @@
+# local test run — legacy-back-end/stock-price-checker
+# command: node test_local.js (server booted on a throwaway port, then stopped)
+
+  ok 1 single stock -> { stock, price(number), likes(number) } from the bundled feed
+  ok 2 two stocks -> array with rel_likes
+  ok 3 one like per IP
+  ok 4 content-security-policy allows scripts/css from self only
+  ok 5 _api/get-tests: 5 tests, all passed
+
+PASS — 5 local assertions

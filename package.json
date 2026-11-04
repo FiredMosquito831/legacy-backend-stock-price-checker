@@ -1,0 +1,14 @@
+{
+  "name": "stockpricechecker",
+  "version": "1.0.0",
+  "description": "Legacy Back-End set reuses the legacy QA Stock Price Checker (bundled offline price feed).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_local.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "license": "MIT"
+}
